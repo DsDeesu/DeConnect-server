@@ -23,8 +23,8 @@ Server for DeConnect chat.
       * echo "password" | sha256sum > users/SERVER
       
 ## Configure server instane via cli
-    * -i ip_on_which_server_will_listen
-    * -p port_on_which_server_will_listen
+    * -i server_ip
+    * -p server_port
     
 ## Troubleshooting
   Server is logging everything to stdout. But client in default not. If you want to see what's going on client instance just add "-d" as argument to client binary.
